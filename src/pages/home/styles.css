@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.conteudo {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+}
+
+.background {   
+    height: 90vh;
+    position: absolute;
+    left: 0;
+    opacity: 0.05;
+}
+
+.informacoes {
+    width: 60%;
+    margin-top: 30px;
+    margin-right: 90px;
+    padding: 10px 10px;
+    color: white;
+}
+
+input {    
+    width: 80%;
+    height: 24px;
+    top: 81px;
+    left: 249px;
+    padding: 3px;
+    margin-right: 5px;
+    
+    border: solid 2px #ccc;
+    border-width: 1px;
+    border-radius: 12px;
+
+    background-color: transparent;
+    font-size: 12px;
+    color: #ffff;
+}
+
+button {
+    width: 89px;
+    height: 34px;
+    top: 81px;  
+    border-width: 1px;
+    border-radius: 12px;
+    padding: 3px;
+    background-color: #2D333B;
+    color: #ffffff;
+    font-size: 15px;
+    border: 2px solid #999999;
+}
+button:hover {
+    background-color: #999999;
+    color: #2D333B;
+    border: 2px solid #2D333B;
+}
+
+.perfil {
+    display: flex;
+    margin: 40px 0;      
+    color: #999999; 
+}
+
+.perfil h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;  
+}
+
+.perfil p {
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    font-size: 12px;
+    margin: 10px 0 0 0;
+    font-weight: 400;  
+}
+
+.perfil span {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;     
+    
+}
+
+.profile {
+    width: 120px;
+    height: 120px;
+    top: 137px;
+    left: 254px;
+    border-width: 1px;
+    border: 1px solid #E5E5E5;
+    border-radius: 64px;
+    margin-right: 20px;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 10px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+

@@ -1,0 +1,31 @@
+
+.item-list {
+    margin: 10px 10px;
+}
+
+.item-list strong {
+    color: #539BF5;    
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 5px;
+}
+
+.item-list p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 15px;
+}
+
+hr {
+    border: 1px solid #E5E5E533;
+    width: 100%;
+    top: 342px;
+    left: 263px;
+    border-width: 1px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
